@@ -245,7 +245,7 @@ function ScrollMenu({
       onMouseMove={onMouseMove?.(context)}
     >
       <VisibilityContext.Provider value={context}>
-        {LeftArrow}
+       <div> <span>{LeftArrow}</span> <span>{RightArrow}</span></div>
         <ScrollContainer
           className={scrollContainerClassName}
           onScroll={scrollHandler}
@@ -259,7 +259,7 @@ function ScrollMenu({
             {children}
           </MenuItems>
         </ScrollContainer>
-        {RightArrow}
+        
       </VisibilityContext.Provider>
     </div>
   );
