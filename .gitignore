@@ -5,7 +5,7 @@ build
 coverage
 yarn-error.log
 .env
-
+.npmrc
 
 **/.yarn/*
 !**/.yarn/patches
