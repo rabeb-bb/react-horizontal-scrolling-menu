@@ -4,6 +4,7 @@ dist
 build
 coverage
 yarn-error.log
+.env
 
 **/.yarn/*
 !**/.yarn/patches
