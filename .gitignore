@@ -6,6 +6,7 @@ coverage
 yarn-error.log
 .env
 
+
 **/.yarn/*
 !**/.yarn/patches
 !**/.yarn/releases
